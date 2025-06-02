@@ -6,7 +6,7 @@ def get_weather():
     city = com.get()
     if not city:
         return
-    api_key = "bea637738234e6d524ad7f1e32daf0d6"  # Replace with your actual API key
+    api_key = "api key"  # Replace with the actual API key
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
     try:
